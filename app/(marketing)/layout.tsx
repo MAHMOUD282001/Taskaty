@@ -9,7 +9,7 @@ function MarketingLayout({ children }: IProps) {
   return (
     <div className="h-full bg-slate-100">
       <Navbar />
-      <main className="pt-40 pb-20 flex justify-center items-center">
+      <main className="h-full flex justify-center items-center">
         {children}
       </main>
       <Footer />

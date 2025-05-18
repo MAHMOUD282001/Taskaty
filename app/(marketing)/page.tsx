@@ -25,18 +25,18 @@ export default function Home() {
           No 1 task management app
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-bold text-neutral-800">
+        <h1 className="text-2xl sm:text-4xl font-bold text-neutral-800">
           Taskaty helps team move
         </h1>
 
-        <div className="text-2xl sm:text-3xl bg-gradient-to-r from-[#007AFF] to-[#312ECB] text-white px-4 py-2 rounded-md">
+        <div className="text-2xl sm:text-4xl bg-gradient-to-r from-[#007AFF] to-[#312ECB] text-white px-4 py-2 rounded-md">
           Productivity forward
         </div>
       </div>
 
       <div
         className={cn(
-          "text-sm md:text-xl text-neutral-500 max-w-xs md:max-w-2xl text-center mx-auto",
+          "text-sm md:text-lg text-neutral-500 max-w-xs md:max-w-2xl text-center mx-auto",
           textFont.className
         )}
       >
@@ -45,7 +45,7 @@ export default function Home() {
         you're remote or in person.
       </div>
 
-      <Button className="mt-6" size="lg" asChild>
+      <Button className="mt-4" size="lg" asChild>
         <Link href="/sign-up">Get started for free</Link>
       </Button>
     </div>
