@@ -10,7 +10,7 @@ export function Navbar() {
 
         <div className="space-x-4 md:block md:w-auto flex justify-between items-center w-full">
           <Button size="sm" variant={"outline"} asChild>
-            <Link href="/login">Login</Link>
+            <Link href="/sign-in">Login</Link>
           </Button>
           
           <Button size="sm" asChild>
