@@ -6,7 +6,7 @@ import { Plus } from "lucide-react";
 export function Navbar() {
   return (
     <div className="fixed top-0 left-0 right-0 w-full z-50 h-24 bg-white flex items-center shadow-sm border-b px-4">
-      <div className="md:max-w-screen-2xl mx-auto flex items-center justify-between w-full">
+      <div className="md:max-w-screen-6xl mx-auto flex items-center justify-between w-full">
         <div className="flex items-center md:gap-5">
           <Logo />
 
@@ -14,7 +14,7 @@ export function Navbar() {
             Create
           </Button>
 
-          <Button variant={"primary"} size="sm" className="md:hidden">
+          <Button variant={"primary"} size="icon" className="md:hidden">
             <Plus />
           </Button>
         </div>
