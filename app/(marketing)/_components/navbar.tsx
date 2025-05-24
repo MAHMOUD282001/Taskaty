@@ -13,7 +13,7 @@ export function Navbar() {
             <Link href="/sign-in">Login</Link>
           </Button>
           
-          <Button size="sm" asChild>
+          <Button variant={"primary"} size="sm" asChild>
             <Link href="/register">Get Taskaty for free</Link>
           </Button>
         </div>

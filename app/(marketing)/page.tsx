@@ -45,7 +45,7 @@ export default function Home() {
         you're remote or in person.
       </div>
 
-      <Button className="mt-4" size="lg" asChild>
+      <Button variant="primary" className="mt-4" size="lg" asChild>
         <Link href="/sign-up">Get started for free</Link>
       </Button>
     </div>

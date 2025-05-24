@@ -2,7 +2,6 @@ import Logo from "@/components/Logo";
 import { Button } from "@/components/ui/button";
 import { OrganizationSwitcher, UserButton } from "@clerk/nextjs";
 import { Plus } from "lucide-react";
-import Link from "next/link";
 
 export function Navbar() {
   return (
@@ -11,11 +10,11 @@ export function Navbar() {
         <div className="flex items-center md:gap-5">
           <Logo />
 
-          <Button size="sm" className="hidden md:block">
+          <Button variant={"primary"} size="sm" className="hidden md:block">
             Create
           </Button>
 
-          <Button size="sm" className="md:hidden">
+          <Button variant={"primary"} size="sm" className="md:hidden">
             <Plus />
           </Button>
         </div>
